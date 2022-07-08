@@ -1,0 +1,53 @@
+body{
+max-width: 1720px;
+height: auto;
+margin: auto;
+
+}
+
+.grid{
+   display:grid;
+   grid-template-columns: 3,1fr;
+}
+.main{
+    max-width:500px;
+    height: 500px;
+}
+
+.iron {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .marvel {
+    grid-column: 2 / 3;
+    grid-row: 1 ;
+  }
+  .cap {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+  .black {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .logan {
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+  .storm {
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+  .rogue {
+    grid-column: 1/2;
+    grid-row: 4;
+  }
+  .hulk {
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+  .icon{
+    width: 5%;
+
+}
+    
